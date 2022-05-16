@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Debuff">
+      <UniqueIdentifier>{eaebeccc-f3ac-4a29-b052-0335811c4d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Debuff\Debuff">
+      <UniqueIdentifier>{71f3f283-88e3-46d4-bb78-67d6ac7e5548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Hero">
+      <UniqueIdentifier>{83f60195-bc44-48f3-ab67-d197a900f502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\HordeHeroes">
+      <UniqueIdentifier>{1215e992-465c-427e-826c-b3a34cdf74d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Debuffs">
+      <UniqueIdentifier>{885c7b6f-5d35-4b44-85ec-ff75fc8cfa4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\KittyHeroes">
+      <UniqueIdentifier>{54a0ee18-65c7-4470-8656-ab71a8b20e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Weapon">
+      <UniqueIdentifier>{e2f911f3-b3c8-4c94-bfd3-78946d723b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Hero">
+      <UniqueIdentifier>{20c9d298-e955-4ac7-98c3-660d2d27c1ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Weapons">
+      <UniqueIdentifier>{e390bde5-5164-418d-99ca-f27f3210a263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Weapon">
+      <UniqueIdentifier>{957d6560-64f0-4e82-8185-80f1a057f7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Weapons">
+      <UniqueIdentifier>{b2ac2a56-2340-46d3-9865-2500a2a90860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\HordeHero">
+      <UniqueIdentifier>{0152c5c1-bd3a-459b-8377-dc3e2e20372a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\HeroBuilder">
+      <UniqueIdentifier>{7cee689f-3757-4f67-8bd5-8fa669d23f04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Fabrics">
+      <UniqueIdentifier>{1b7a53be-75e3-4f71-b29d-0f522e178d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\KittyHero">
+      <UniqueIdentifier>{628b895c-5473-4d14-864a-ad0b5a6e0bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\HeroBuilder\ConcreteHeroFabric">
+      <UniqueIdentifier>{c69d0b75-9722-425f-a8b9-f5d29b2af33b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Исходные файлы\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Исходные файлы\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapons.cpp">
+      <Filter>Исходные файлы\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Debuffs.cpp">
+      <Filter>Исходные файлы\Debuffs</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroFabric.h">
+      <Filter>Файлы заголовков\HeroBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroFabrics.cpp">
+      <Filter>Исходные файлы\Fabrics</Filter>
+    </ClCompile>
+    <ClCompile Include="HordeWarriorsFabric.cpp">
+      <Filter>Исходные файлы\HordeHeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="KittyHeroesFabric.cpp">
+      <Filter>Исходные файлы\KittyHeroes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Weapon.h">
+      <Filter>Файлы заголовков\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Debuff.h">
+      <Filter>Файлы заголовков\Debuff\Debuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Файлы заголовков\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapons.h">
+      <Filter>Файлы заголовков\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Debuffs.h">
+      <Filter>Файлы заголовков\Debuff</Filter>
+    </ClInclude>
+    <ClInclude Include="HordeHero.h">
+      <Filter>Файлы заголовков\HordeHero</Filter>
+    </ClInclude>
+    <ClInclude Include="HeroFabrics.h">
+      <Filter>Файлы заголовков\HeroBuilder\ConcreteHeroFabric</Filter>
+    </ClInclude>
+    <ClInclude Include="KittyHero.h">
+      <Filter>Файлы заголовков\KittyHero</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
