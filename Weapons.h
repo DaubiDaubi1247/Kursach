@@ -3,7 +3,7 @@
 
 class Axe : public Weapon {
 				enum AxeCharacteristic {
-								DAMAGE = 10,
+								DAMAGE = 30,
 								RANGE = 1,
 				};
 
@@ -14,7 +14,7 @@ class Axe : public Weapon {
 class Bow : public Weapon {
 				enum BowCharacteristic {
 								DAMAGE = 15,
-								RANGE = 3,
+								RANGE = 2,
 				};
 
 				public : 

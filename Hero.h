@@ -1,15 +1,11 @@
 #pragma once
 #include <string>
-
+#include "Coordinate.h"
 using namespace std;
 
 class Weapon;
 class Debuff;
 
-struct point 	{
-    int x;
-    int y;
-};
 
 class Hero {
     protected : 
@@ -17,27 +13,28 @@ class Hero {
         int health;
         Debuff* debuff = nullptr;
         Weapon* weapon = nullptr;
-        point coordinate;
-        bool isDie = false;
+        coordinate coor;
+        bool isDead = false;
+        int id;
+        int rangeMoving;
+        int direction;
 
-    public : 
-        
-        bool isDead();
-       /* Hero();*/
-        virtual void move() = 0;
-
+    public :   
+        void decreaseHP(int hp);     
+        void debuffAttack();    
         void attack(Hero& target);
+        bool isDied();
 
-        string getName();
-        
+        string getName();   
         int getHealth();
+        int getId();
+        int getDirection();
+        Weapon& getWeapon();
+        coordinate& getCoordinate();
 
-        void decreaseHP(int hp);
-        
-        void setDebuff(Debuff* debuff);
-
-        void debuffAttack();
-    
         Hero& operator = (Hero& hero);
 
+        void setDebuff(Debuff* debuff);
+        void setCoordinate(coordinate coor);
+        void setDir(int dir);
 };

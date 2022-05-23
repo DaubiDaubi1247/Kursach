@@ -2,6 +2,7 @@
 #include "Debuff.h"
 #include "Weapon.h"
 #include "Hero.h"
+#include <iostream>
 
 using namespace std;
 
@@ -13,6 +14,8 @@ using namespace std;
 
 void Hero:: attack(Hero& target) {
     weapon->attack(target);
+    std::cout << "Герой : " << this->getName() << " наносит : " << weapon->getDamage() << " урона, герою : " << target.getName() << endl;
+    std::cout << "После удара : " << this->getName() << " у " <<  target.getName() << " осталось " << target.getHealth() << " здоровья : \n";
 }
 
 string Hero:: getName() {
@@ -21,7 +24,7 @@ string Hero:: getName() {
 
 void Hero:: decreaseHP(int hp) {
     health -= hp;
-    if (health <= 0) isDie = true;
+    if (health <= 0) isDead = true;
 }
 
 void Hero:: setDebuff(Debuff* debuff) {
@@ -33,8 +36,8 @@ int Hero::getHealth() {
     return health;
 }
 
-bool Hero::isDead() {
-    return isDie;
+bool Hero::isDied() {
+    return isDead;
 }
 
 void Hero::debuffAttack() {
@@ -47,6 +50,27 @@ Hero& Hero:: operator = (Hero& hero ) {
     return *this;
 }
 
+coordinate& Hero::getCoordinate() {
+    return this->coor;
+}
 
+void Hero::setCoordinate(coordinate coor) {
+    this->coor = coor;
+}
 
+int Hero::getId() {
+    return id;
+}
+
+Weapon& Hero::getWeapon() {
+    return *weapon;
+}
+
+int Hero::getDirection() {
+    return direction;
+}
+
+void Hero::setDir(int dir) {
+    this->direction = dir;
+}
 

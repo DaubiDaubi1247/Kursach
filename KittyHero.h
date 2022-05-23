@@ -5,12 +5,19 @@ class KittyWarrior : public Hero {
 public:
     KittyWarrior();
 
-    void move();
+    
 };
 
 class KittyArcher : public Hero {
 public:
     KittyArcher();
 
-    void move();
+    
+};
+
+class KittyKiller : public Hero {
+public:
+    KittyKiller();
+
+    
 };

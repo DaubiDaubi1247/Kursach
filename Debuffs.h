@@ -27,3 +27,14 @@ class Poison : public Debuff {
 
         void debuffAttack(Hero& target) override;
 };
+
+class Curse : public Debuff {
+    enum BleedingCharasteristic {
+        TIMES = 3,
+        DAMAGE = 7
+    };
+public:
+    Curse();
+
+    void debuffAttack(Hero& target) override;
+};

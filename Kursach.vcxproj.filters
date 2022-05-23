@@ -49,17 +49,47 @@
     <Filter Include="Файлы заголовков\HordeHero">
       <UniqueIdentifier>{0152c5c1-bd3a-459b-8377-dc3e2e20372a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\HeroBuilder">
-      <UniqueIdentifier>{7cee689f-3757-4f67-8bd5-8fa669d23f04}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Исходные файлы\Fabrics">
       <UniqueIdentifier>{1b7a53be-75e3-4f71-b29d-0f522e178d65}</UniqueIdentifier>
     </Filter>
     <Filter Include="Файлы заголовков\KittyHero">
       <UniqueIdentifier>{628b895c-5473-4d14-864a-ad0b5a6e0bf9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\HeroBuilder\ConcreteHeroFabric">
+    <Filter Include="Файлы заголовков\Game">
+      <UniqueIdentifier>{b42cc341-8746-42ae-8641-da0eb964ba18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Game">
+      <UniqueIdentifier>{e58f1de1-1cc0-4133-b2a8-8a47f6838cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Player">
+      <UniqueIdentifier>{00753d11-4ea8-487d-8afd-52ed9beb9f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Player">
+      <UniqueIdentifier>{ac15c977-d6b3-4fcf-a7c5-0104f8a7e60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\HeroFabric">
+      <UniqueIdentifier>{7cee689f-3757-4f67-8bd5-8fa669d23f04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\HeroFabric\ConcreteHeroFabric">
       <UniqueIdentifier>{c69d0b75-9722-425f-a8b9-f5d29b2af33b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GameMap">
+      <UniqueIdentifier>{4c97df47-75c5-41ac-aa61-f92a52d6fdd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GameMap">
+      <UniqueIdentifier>{f37b29d3-0fe4-4399-b7c7-e28c12fbf8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Coordinate">
+      <UniqueIdentifier>{e44d6cd8-03ea-401b-9c91-a9dd9de471bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\NewFilter1">
+      <UniqueIdentifier>{f234999e-37cb-4c11-a7ca-4358a62635f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Army">
+      <UniqueIdentifier>{2876ad95-d1d9-44c9-b2df-27973cef83ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Army">
+      <UniqueIdentifier>{76a64130-14c3-4d82-8187-7632190ff52b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -79,7 +109,7 @@
       <Filter>Исходные файлы\Debuffs</Filter>
     </ClCompile>
     <ClCompile Include="HeroFabric.h">
-      <Filter>Файлы заголовков\HeroBuilder</Filter>
+      <Filter>Файлы заголовков\HeroFabric</Filter>
     </ClCompile>
     <ClCompile Include="HeroFabrics.cpp">
       <Filter>Исходные файлы\Fabrics</Filter>
@@ -90,11 +120,23 @@
     <ClCompile Include="KittyHeroesFabric.cpp">
       <Filter>Исходные файлы\KittyHeroes</Filter>
     </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Исходные файлы\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap.cpp">
+      <Filter>Исходные файлы\GameMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Debuff1.cpp">
+      <Filter>Исходные файлы\Debuffs</Filter>
+    </ClCompile>
+    <ClCompile Include="Army.cpp">
+      <Filter>Исходные файлы\Army</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Weapon.h">
-      <Filter>Файлы заголовков\Weapon</Filter>
-    </ClInclude>
     <ClInclude Include="Debuff.h">
       <Filter>Файлы заголовков\Debuff\Debuff</Filter>
     </ClInclude>
@@ -111,10 +153,28 @@
       <Filter>Файлы заголовков\HordeHero</Filter>
     </ClInclude>
     <ClInclude Include="HeroFabrics.h">
-      <Filter>Файлы заголовков\HeroBuilder\ConcreteHeroFabric</Filter>
+      <Filter>Файлы заголовков\HeroFabric\ConcreteHeroFabric</Filter>
     </ClInclude>
     <ClInclude Include="KittyHero.h">
       <Filter>Файлы заголовков\KittyHero</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Файлы заголовков\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Файлы заголовков\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>Файлы заголовков\GameMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Coordinate.h">
+      <Filter>Файлы заголовков\Coordinate</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Файлы заголовков\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Army.h">
+      <Filter>Файлы заголовков\Army</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

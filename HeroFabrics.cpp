@@ -4,11 +4,15 @@
 #include "KittyHero.h"
 
 Hero* HordeHeroFabric::createArcher() {
-    return new HordeWarrior();
+    return new HordeArcher();
 }
 
 Hero* HordeHeroFabric::createWarrior() {
-    return new HordeArcher();
+    return new HordeWarrior();
+}
+
+Hero* HordeHeroFabric::createKiller() {
+    return new HordeKiller();
 }
 
 Hero* KittyHeroFabric::createArcher() {
@@ -17,4 +21,8 @@ Hero* KittyHeroFabric::createArcher() {
 
 Hero* KittyHeroFabric::createWarrior() {
     return new KittyWarrior();
+}
+
+Hero* KittyHeroFabric::createKiller() {
+    return new KittyKiller();
 }

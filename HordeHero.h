@@ -5,12 +5,19 @@ class HordeWarrior : public Hero {
     public:
         HordeWarrior();
 
-        void move();
+        
 };
 
 class HordeArcher : public Hero {
     public:
         HordeArcher();
 
-        void move();
+        
+};
+
+class HordeKiller : public Hero {
+    public : 
+        HordeKiller();
+            
+        
 };

@@ -139,23 +139,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Army.cpp" />
+    <ClCompile Include="Debuff1.cpp" />
     <ClCompile Include="Debuffs.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameMap.cpp" />
     <ClCompile Include="Hero.cpp" />
     <ClCompile Include="HeroFabric.h" />
     <ClCompile Include="HordeWarriorsFabric.cpp" />
     <ClCompile Include="KittyHeroesFabric.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="HeroFabrics.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="Weapon.cpp" />
     <ClCompile Include="Weapons.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Army.h" />
+    <ClInclude Include="Coordinate.h" />
     <ClInclude Include="Debuff.h" />
     <ClInclude Include="Debuffs.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameMap.h" />
     <ClInclude Include="Hero.h" />
     <ClInclude Include="HordeHero.h" />
     <ClInclude Include="HeroFabrics.h" />
     <ClInclude Include="KittyHero.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="Weapon.h" />
     <ClInclude Include="Weapons.h" />
   </ItemGroup>

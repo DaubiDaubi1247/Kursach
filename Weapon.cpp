@@ -22,6 +22,7 @@ int Weapon :: getRange() {
 }
 
 void Weapon :: attack(Hero& target) {
+    
     target.decreaseHP(damage);
     target.setDebuff(&debuff);
 }

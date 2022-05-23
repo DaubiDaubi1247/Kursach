@@ -5,34 +5,19 @@ class Hero;
 
 class Debuff {
 protected:
-    string name;
+    std::string name;
     int times;
     int damage;
 
 public:
     
-    string getName() {
-        return name;
-    }
+    std::string getName();
 
-    Debuff(int times, int damage, string name){
-        this->name = name;
-        this->times = times;
-        this->damage = damage;
-    };
+    Debuff(int times, int damage, std::string name);
 
     virtual void debuffAttack(Hero& target) = 0;
 
-    Debuff* operator = (Debuff* debuff) {
-        this->damage = debuff->damage;
-        this->name = debuff->name;
-        this->times = debuff->times;
-        return this;
-    }
+    Debuff* operator = (Debuff* debuff);
 
-    Debuff (const Debuff& debuff)  {
-        this->damage = debuff.damage;
-        this->name = debuff.name;
-        this->times = debuff.times;
-    }
+    Debuff (const Debuff& debuff);
 };

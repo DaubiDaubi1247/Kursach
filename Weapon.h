@@ -14,9 +14,7 @@ class Weapon {
         Weapon(Debuff& debuff,int damage, int range);
 
         int getDamage();
-
         Debuff& getDebuff();
-
         int getRange();
 
         void attack(Hero& target);
